@@ -1,0 +1,12 @@
+# App--Movie-Picker
+
+This is a front-end app made with Vanilla JavaScript. 
+
+## Description
+
+This app consumes The Movie Database API in order to get random movie suggestions based on the selected genre.
+
+## How to use
+
+In order to run this app in your machine, you're gonna need your own API key. Go to <a href="https://www.themoviedb.org/signup"></a>, register and request your API key. When it's available,
+go to script.js and set the variable tmdbKey to the value of your API key.
