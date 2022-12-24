@@ -44,21 +44,8 @@ main {
     width: 65%;
     margin: 82px auto;
     display: flex;
-    /* background-color: wheat; */
     justify-content: center;
 }
-
-/* #movieInfo:after {
-    content:  "";
-    display:  table;
-    clear:  both;
-} */
-
-/* #moviePoster, #movieText {
-    width:  50%;
-    float:  left;
-} */
-
 
 img#moviePoster {
     width: 50%;
@@ -90,6 +77,11 @@ img#moviePoster {
     background-color: #FEFBEA;
     color: #050035;
     cursor: pointer;
+}
+
+#playBtn:hover {
+    background-color: #8c0909;
+    color: #FEFBEA;
 }
 
 label {
