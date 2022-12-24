@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Movie Picker</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=M+PLUS+Rounded+1c:wght@400&family=Fredoka+One&family=Questrial&family=Staatliches&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <header>
+    <h1 id="appTitle">🍿Movie Picker🍿</h1>
+  </header>
+  <main>
+    <form id="genreForm">
+      <label>Choose a genre:</label>
+      <select name="genres" id="genres">
+      </select>
+    </form>
+    <button id="playBtn">Find Movie!</button>
+
+    <div id="movieInfo">
+      <div id="moviePoster"></div>
+      <div id="movieText"></div>
+    </div>
+
+    <div id="likeOrDislikeBtns" hidden>
+      <h1>Rate movie:</h1>
+      <button id="likeBtn"><i class="fa-solid fa-thumbs-up"></i></button>
+      <button id="dislikeBtn"><i class="fa-solid fa-thumbs-down"></i></button>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <div class="waves">
+      <div class="wave" id="wave1"></div>
+      <div class="wave" id="wave2"></div>
+      <div class="wave" id="wave3"></div>
+      <div class="wave" id="wave4"></div>
+    </div>
+    <ul class="social-icon">
+      <li class="social-icon__item"><a class="social-icon__link" href="https://github.com/leonardo-alm" target="_blank">
+          <ion-icon name="logo-github"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="https://www.linkedin.com/in/leonardo-almeida-187588148/" target="_blank">
+          <ion-icon name="logo-linkedin"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="mailto:leonardo.olv94@gmail.com" target="_blank">
+          <ion-icon name="logo-google"></ion-icon>
+        </a></li>
+      <li class="social-icon__item"><a class="social-icon__link" href="https://api.whatsapp.com/send?phone=5584988495054" target="_blank">
+          <ion-icon name="logo-whatsapp"></ion-icon>
+        </a></li>
+    </ul>
+    <ul class="menu">
+      <li class="menu__item"><a class="menu__link" href="#">Home</a></li>
+      <li class="menu__item"><a class="menu__link" href="#">About</a></li>
+      <li class="menu__item"><a class="menu__link" href="#">Services</a></li>
+      <li class="menu__item"><a class="menu__link" href="#">Team</a></li>
+      <li class="menu__item"><a class="menu__link" href="#">Contact</a></li>
+
+    </ul>
+    <p>&copy;2022 All Rights Reserved | Leonardo Almeida</p>
+  </footer>
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+  <script defer src="https://kit.fontawesome.com/e918d10e90.js" crossorigin="anonymous"></script>
+  <script defer src="./helpers.js"></script>
+  <script defer src="./script.js"></script>
+</body>
+
+</html>
