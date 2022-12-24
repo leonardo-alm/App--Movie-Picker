@@ -1,4 +1,4 @@
-# App--Movie-Picker
+# Movie Picker
 
 This is a front-end app made with Vanilla JavaScript. 
 
