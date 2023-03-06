@@ -8,6 +8,8 @@ This app consumes The Movie Database API in order to get random movie suggestion
 
 ## Demo
 
+To see the demo in higher quality click on the gif below.
+
 ![Movie Picker Demo](demo/animacao.gif)
 
 ## How to use
